@@ -22,11 +22,11 @@ export const clearDisplay = () => {
     return({type: CLEAR_DISPLAY})
 }
 
-export const currentMemory = (total) => {
-    return({type: CURRENT_MEMORY, payload: total})
+export const currentMemory = () => {
+    return({type: CURRENT_MEMORY})
 }
-export const applyMemory = (number) => {
-    return({type: APPLY_MEMORY, payload: number})
+export const applyMemory = () => {
+    return({type: APPLY_MEMORY})
 }
 
 export const clearMemory = () => {
